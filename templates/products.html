@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block products %}
+    <div class="products">
+        {% if item %}
+            <p>This should not show up</p>
+        {% else %}
+            <p>Click the Create button to add a product</p>
+        {% endif %}
+    </div>
+{% endblock %}

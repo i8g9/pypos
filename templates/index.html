@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}
+PyPOS
+{% endblock %}
+
+{% block main %}
+    <div class="nav-container">
+        {% block nav %}
+        {% endblock %}
+    </div>
+
+    <div class="products-container">
+        {% block products %}
+        {% endblock %}
+    </div>
+
+    <div class="purchase-container">
+        {% block purchase %}
+        {% endblock %}
+    </div>
+{% endblock %}

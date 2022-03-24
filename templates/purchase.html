@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+
+{% block purchase %}
+    <div class="purchase">
+        {% if quantity %}
+            <p>This should not appear</p>
+        {% else %}
+            <p>Click the Add to Billing button to add order</p>
+        {% endif %}
+    </div>
+{% endblock %}

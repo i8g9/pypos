@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <form action="">
+        <label for="product-name">Product Name</label>
+        <input id="productName" type="text" name="productName" placeholder="Hot Coffee" required/>
+        <label for="product-price">Product Price in USD</label>
+        <input id="productPrice" type="number" name="productPrice" placeholder="15" required/>
+        <button type="button" class="btnCreate" name="btnCreate" onclick="createProduct()">Create Product</button>
+    </form>
+{% endblock %}
