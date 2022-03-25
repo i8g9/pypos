@@ -8,6 +8,7 @@ Roadmap :
 - [X] Create JS files
 - [X] Build skeleton for app with template inheritance
 - [X] Create routing
+- [X] Design Database Schema
 - [ ] Create Database
 - [ ] Create Table
 - [ ] Connect app with database and table
